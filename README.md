@@ -1,5 +1,4 @@
 # Porn-Blocker-Pure-Path-Privacy
-Privacy Policy for Porn Blocker: PurePath
 📜 Privacy Policy for Porn Blocker: PurePath
 
 Effective Date: August 15, 2025

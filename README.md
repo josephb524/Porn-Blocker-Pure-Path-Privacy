@@ -29,7 +29,7 @@ Your privacy is very important to us. This Privacy Policy explains how our app h
 ⸻
 
 4. Children’s Privacy
-	•	Porn Blocker: PurePath is intended for users 18 years and older.
+	•	Porn Blocker: PurePath is intended for users 4 years and older.
 	•	We do not knowingly collect personal data from children.
 
 ⸻

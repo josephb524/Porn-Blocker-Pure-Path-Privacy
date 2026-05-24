@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Porn Blocker: PurePath</title>
+    <meta name="description" content="Privacy Policy for Porn Blocker: PurePath. Simple, clear information about how we protect your privacy, handle AI chat, and manage subscriptions.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* Design System CSS Variables */
+        :root {
+            --bg-gradient-start: #f8fafc;
+            --bg-gradient-end: #e2e8f0;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --border-color: rgba(226, 232, 240, 0.8);
+            --primary: #4f46e5;
+            --primary-hover: #4338ca;
+            --primary-light: #eeebff;
+            --accent: #6366f1;
+            --shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            --alert-bg: #f5f3ff;
+            --alert-border: #818cf8;
+            --toast-bg: #1e293b;
+            --toast-text: #f8fafc;
+        }
+
+        /* Auto Dark Mode Theme */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-gradient-start: #0f172a;
+                --bg-gradient-end: #020617;
+                --text-main: #f8fafc;
+                --text-muted: #94a3b8;
+                --card-bg: rgba(15, 23, 42, 0.85);
+                --border-color: rgba(51, 65, 85, 0.5);
+                --primary: #818cf8;
+                --primary-hover: #6366f1;
+                --primary-light: rgba(99, 102, 241, 0.15);
+                --accent: #a5b4fc;
+                --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+                --alert-bg: rgba(99, 102, 241, 0.08);
+                --alert-border: #6366f1;
+                --toast-bg: #f8fafc;
+                --toast-text: #0f172a;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: radial-gradient(circle at top right, var(--bg-gradient-start), var(--bg-gradient-end) 80%);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 4rem 1.5rem;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .container {
+            max-width: 780px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 28px;
+            padding: 3.5rem 3rem;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Ambient Top Highlight */
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #4f46e5, #6366f1, #818cf8);
+        }
+
+        header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .app-icon {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 64px;
+            height: 64px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+            box-shadow: 0 8px 16px -4px rgba(79, 70, 229, 0.3);
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .meta-date {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .content {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        h2 span {
+            color: var(--primary);
+            font-size: 1rem;
+            background-color: var(--primary-light);
+            width: 28px;
+            height: 28px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-size: 0.975rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            position: relative;
+            padding-left: 1.75rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-muted);
+            font-size: 0.975rem;
+        }
+
+        li::before {
+            content: "";
+            position: absolute;
+            left: 6px;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: var(--accent);
+        }
+
+        .alert-box {
+            background-color: var(--alert-bg);
+            border-left: 4px solid var(--alert-border);
+            padding: 1.25rem;
+            border-radius: 12px;
+            margin: 1.75rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .alert-box svg {
+            color: var(--alert-border);
+            flex-shrink: 0;
+            margin-top: 0.15rem;
+        }
+
+        .alert-box p {
+            margin-bottom: 0;
+            font-size: 0.925rem;
+            color: var(--text-muted);
+        }
+
+        .contact-card {
+            border-top: 1px solid var(--border-color);
+            padding-top: 2.5rem;
+            text-align: center;
+            margin-top: 3.5rem;
+        }
+
+        .contact-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .email-interactive {
+            display: inline-flex;
+            align-items: center;
+            background: var(--primary-light);
+            border: 1px solid var(--border-color);
+            border-radius: 9999px;
+            padding: 0.25rem 0.25rem 0.25rem 1.25rem;
+            margin-top: 0.75rem;
+            transition: all 0.2s ease;
+        }
+
+        .email-text {
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-right: 1rem;
+            text-decoration: none;
+        }
+
+        .email-text:hover {
+            color: var(--primary);
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.25rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.15);
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Toast Popup Notification */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--toast-bg);
+            color: var(--toast-text);
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 1000;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+            .container {
+                padding: 2.25rem 1.75rem;
+                border-radius: 20px;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            .email-interactive {
+                width: 100%;
+                flex-direction: column;
+                padding: 1rem;
+                border-radius: 20px;
+                gap: 0.75rem;
+            }
+            .email-text {
+                margin-right: 0;
+            }
+            .copy-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="app-icon" aria-hidden="true">
+                <!-- Shield Icon SVG -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h1>Porn Blocker: PurePath</h1>
+            <p class="subtitle">Privacy Policy</p>
+            <span class="meta-date">Effective Date: August 15, 2025</span>
+        </header>
+
+        <div class="content">
+            <p>Thank you for choosing Porn Blocker: PurePath (&ldquo;the App&rdquo;). Your privacy is incredibly important to us. This policy explains how we handle and protect your information.</p>
+
+            <div class="alert-box" role="note">
+                <!-- Shield Check Icon -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <p><strong>Your Privacy Comes First:</strong> The app is built so that your personal data never leaves your device. We do not track your web browsing activity.</p>
+            </div>
+
+            <h2><span>1</span> Information We Do Not Collect</h2>
+            <ul>
+                <li><strong>All Blocking is Local:</strong> The lists of blocked websites, keyword blockers, and whitelists are stored entirely on your own device.</li>
+                <li><strong>No Web Tracking:</strong> We do not track, monitor, or view the websites you visit or your online browsing habits.</li>
+                <li><strong>No Habit Logs:</strong> Your recovery progress, streaks, and check-in history stay stored safely on your phone and are never sent to us.</li>
+            </ul>
+
+            <h2><span>2</span> AI Recovery Buddy (Buddy Chat)</h2>
+            <p>The App includes an optional, supportive AI chat helper to assist you on your recovery journey. To protect your chats:</p>
+            <ul>
+                <li><strong>No Saved Conversations:</strong> Your messages are sent securely to our AI partner (Fireworks AI) to generate replies, but they are not stored or saved on any servers.</li>
+                <li><strong>No Training on Your Data:</strong> Your messages are never used to train or improve AI models.</li>
+                <li><strong>Local History Only:</strong> Your chat history is stored strictly on your own device, and you can delete it at any time.</li>
+            </ul>
+
+            <h2><span>3</span> In-App Purchases &amp; Subscriptions</h2>
+            <p>We offer premium features through Apple’s subscription system:</p>
+            <ul>
+                <li><strong>Managed by Apple:</strong> All payments and accounts are handled securely by Apple. We do not have access to your credit card, billing address, or Apple ID.</li>
+                <li><strong>Subscription Check:</strong> The app only performs a secure check with Apple to verify that you have an active subscription to unlock paid features. No personal details are shared during this check.</li>
+            </ul>
+
+            <h2><span>4</span> Third-Party Services</h2>
+            <ul>
+                <li><strong>No Ad Trackers:</strong> We do not include any third-party ads, analytics tools, or marketing trackers in the App.</li>
+                <li><strong>Limited Connections:</strong> The App only connects to the internet to download the adult website blocklist and to send your messages back and forth with your AI chat companion.</li>
+            </ul>
+
+            <h2><span>5</span> Children's Privacy</h2>
+            <p>Porn Blocker: PurePath is intended for users 4 years and older. We do not knowingly collect or request personal details from children.</p>
+
+            <h2><span>6</span> Changes to this Policy</h2>
+            <p>We may update this Privacy Policy from time to time. If we make changes, we will post the update inside the App or on our App Store listing. Continuing to use the app means you accept the updated terms.</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Questions or Feedback?</h3>
+            <p>If you have any questions about this privacy policy, feel free to reach out to us:</p>
+            
+            <div class="email-interactive">
+                <a href="mailto:eltercerelias3@hotmail.com" class="email-text">eltercerelias3@hotmail.com</a>
+                <button class="copy-btn" id="copyBtn">
+                    <!-- Copy Icon SVG -->
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span>Copy Email</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copy Status Toast -->
+    <div class="toast" id="toast">Email Copied!</div>
+
+    <script>
+        const copyBtn = document.getElementById('copyBtn');
+        const toast = document.getElementById('toast');
+        const emailText = 'eltercerelias3@hotmail.com';
+
+        copyBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(emailText).then(() => {
+                // Show notification toast
+                toast.classList.add('show');
+                
+                // Hide after 3 seconds
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 3000);
+            }).catch(err => {
+                console.error('Could not copy text: ', err);
+            });
+        });
+    </script>
+</body>
+</html>
